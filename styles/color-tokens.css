@@ -1,0 +1,76 @@
+@layer base {
+  :root {
+    /* Foreground Colors */
+    --color-fg-primary: 29 33 42;
+    --color-fg-secondary: 100 116 139;
+    --color-fg-tertiary: 148 163 184;
+    --color-fg-subtle: 195 205 217;
+    --color-fg-inverse: 255 255 255;
+    
+    /* Background Colors */
+    --color-bg-0: 255 255 255;
+    --color-bg-1: 248 250 252;
+    --color-bg-2: 237 242 247;
+    --color-bg-3: 225 232 240;
+    --color-bg-dimmed-1: 0 0 0;
+    --color-bg-dimmed-2: 0 0 0;
+    --color-bg-inverse: 29 33 42;
+    
+    /* Border Colors */
+    --color-border-1: 161 169 178;
+    --color-border-2: 203 213 225;
+    --color-border-3: 226 232 240;
+    --color-border-inverse: 255 255 255;
+    
+    /* Semantic Colors */
+    --color-primary: 0 181 178;
+    --color-primary-strong: 16 156 156;
+    --color-on-primary: 255 255 255;
+    --color-danger: 240 67 76;
+    --color-on-danger: 255 255 255;
+    --color-success: 51 207 150;
+    --color-on-success: 255 255 255;
+    --color-warning: 250 185 35;
+    --color-on-warning: 255 255 255;
+    --color-informative: 34 153 238;
+    --color-on-informative: 255 255 255;
+  }
+
+  .dark {
+    /* Foreground Colors */
+    --color-fg-primary: 250 250 250;
+    --color-fg-secondary: 195 205 217;
+    --color-fg-tertiary: 148 163 184;
+    --color-fg-subtle: 107 119 139;
+    --color-fg-inverse: 29 33 42;
+    
+    /* Background Colors */
+    --color-bg-0: 29 33 42;
+    --color-bg-1: 45 50 64;
+    --color-bg-2: 60 66 82;
+    --color-bg-3: 75 81 99;
+    --color-bg-dimmed-1: 0 0 0;
+    --color-bg-dimmed-2: 0 0 0;
+    --color-bg-inverse: 250 250 250;
+    
+    /* Border Colors */
+    --color-border-1: 148 163 184;
+    --color-border-2: 102 113 132;
+    --color-border-3: 75 81 99;
+    --color-border-inverse: 29 33 42;
+    
+    /* Semantic Colors */
+    --color-primary: 13 209 206;
+    --color-primary-strong: 15 235 231;
+    --color-on-primary: 29 33 42;
+    --color-danger: 255 79 108;
+    --color-on-danger: 29 33 42;
+    --color-success: 57 229 167;
+    --color-on-success: 29 33 42;
+    --color-warning: 252 226 96;
+    --color-on-warning: 29 33 42;
+    --color-informative: 112 195 255;
+    --color-on-informative: 29 33 42;
+  }
+}
+
